@@ -1,5 +1,5 @@
 // Santiago Díaz Guevara
-// A01252554 
+// A01252554
 
 // Este programa no está optimizado ni organizado.
 
@@ -53,11 +53,11 @@ int main()
     {
         switch (cTipo)
         {
-            case 'B':
+            case 'L':
                 ifMaterial >> iNumPag >> sAutor;
                 listaMaterial[iContadorListaMaterial] = new Libro(iIdMaterial, sTitulo, iNumPag, sAutor);
                 break;
-            case 'C':
+            case 'D':
                 ifMaterial >> iDuracion;
                 listaMaterial[iContadorListaMaterial] = new Disco(iIdMaterial, sTitulo, iDuracion);
                 break;
